@@ -1,0 +1,1116 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0525.0851                               -->
+<workbook original-version='18.1' source-build='2022.1.2 (20221.22.0525.0851)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Dataset Titanic' inline='true' name='federated.0o1iv5s1v42mej19tv8uk1echj4o' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Titanic' name='excel-direct.0lqmt5v093ne531e8kzjb0h1dr8w'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/oriel/OneDrive/Escritorio/Titanic.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0lqmt5v093ne531e8kzjb0h1dr8w' name='fafwaf' table='[fafwaf$]' type='table'>
+          <columns gridOrigin='A1:D1317:no:A1:D1317:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Clase' ordinal='0' />
+            <column datatype='integer' name='Edad' ordinal='1' />
+            <column datatype='integer' name='Sexo' ordinal='2' />
+            <column datatype='integer' name='Sobrevivió?' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0lqmt5v093ne531e8kzjb0h1dr8w' name='fafwaf' table='[fafwaf$]' type='table'>
+          <columns gridOrigin='A1:D1317:no:A1:D1317:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Clase' ordinal='0' />
+            <column datatype='integer' name='Edad' ordinal='1' />
+            <column datatype='integer' name='Sexo' ordinal='2' />
+            <column datatype='integer' name='Sobrevivió?' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[fafwaf]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D1317:no:A1:D1317:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clase</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clase]</local-name>
+            <parent-name>[fafwaf]</parent-name>
+            <remote-alias>Clase</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fafwaf_9C8C23F5618F4B5F8FA023C31F80DF10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Edad</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Edad]</local-name>
+            <parent-name>[fafwaf]</parent-name>
+            <remote-alias>Edad</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fafwaf_9C8C23F5618F4B5F8FA023C31F80DF10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sexo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sexo]</local-name>
+            <parent-name>[fafwaf]</parent-name>
+            <remote-alias>Sexo</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fafwaf_9C8C23F5618F4B5F8FA023C31F80DF10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sobrevivió?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sobrevivió?]</local-name>
+            <parent-name>[fafwaf]</parent-name>
+            <remote-alias>Sobrevivió?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fafwaf_9C8C23F5618F4B5F8FA023C31F80DF10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Determinar sexo' datatype='string' name='[Calculation_355502951668142081]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='CASE [Sexo]&#13;&#10;WHEN 1 THEN &quot;Femenino&quot; WHEN 0 THEN &quot;Masculino&quot; END' />
+      </column>
+      <column caption='Determinar clase ' datatype='string' name='[Calculation_355502951674970114]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='CASE [Clase]&#13;&#10;WHEN 1 THEN &quot;Primera Clase&quot;&#13;&#10;WHEN 2 THEN &quot;Segunda Clase&quot;&#13;&#10;WHEN 3 THEN &quot;Tercera Clase&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Determinar Supervivencia' datatype='string' name='[Calculation_51228501729198083]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='CASE [Sobrevivió?]&#13;&#10;WHEN 1 THEN &quot;Sobrevivió&quot; WHEN 0 THEN &quot;No Sobrevivió&quot; END' />
+      </column>
+      <column caption='Determinar Edad' datatype='string' name='[Calculation_51228501730824196]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='CASE [Edad]&#13;&#10;WHEN 0 THEN &quot;Infante&quot; WHEN 1 THEN &quot;Adulto&quot; END' />
+      </column>
+      <column aggregation='None' caption='Clase T' datatype='integer' name='[Clase (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[Clase]' peg='0' size='1' />
+      </column>
+      <column datatype='integer' name='[Clase]' role='measure' type='quantitative' />
+      <column aggregation='None' caption='Edad (bin)' datatype='integer' name='[Edad (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Edad]' peg='0' size='1' />
+      </column>
+      <column datatype='integer' name='[Edad]' role='measure' type='quantitative' />
+      <column aggregation='None' caption='Sexo (Masculino / Femenino)' datatype='integer' name='[Sexo (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Sexo]' peg='0' size='1' />
+      </column>
+      <column datatype='integer' name='[Sexo]' role='measure' type='quantitative' />
+      <column aggregation='None' caption='Supervivencia' datatype='integer' name='[Sobrevivió? (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Sobrevivió?]' peg='0' size='1' />
+      </column>
+      <column datatype='integer' name='[Sobrevivió?]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Titanic' datatype='table' name='[__tableau_internal_object_id__].[fafwaf_9C8C23F5618F4B5F8FA023C31F80DF10]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_51228501729198083]' derivation='None' name='[none:Calculation_51228501729198083:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Clase (bin)]' derivation='None' name='[none:Clase (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Edad (bin)]' derivation='None' name='[none:Edad (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Sexo (bin)]' derivation='None' name='[none:Sexo (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Sobrevivió?]' derivation='None' name='[none:Sobrevivió?:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Clase (bin),Sobrevivió?)' hidden='true' name='[Action (Clase (bin),Sobrevivió?)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Clase (bin):ok]' />
+          <groupfilter function='level-members' level='[none:Sobrevivió?:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_51228501729198083:nk]' type='palette'>
+            <map to='#0000ff'>
+              <bucket>&quot;Sobrevivió&quot;</bucket>
+            </map>
+            <map to='#00aaff'>
+              <bucket>&quot;No Sobrevivió&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Murió&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Salvado&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Sexo (bin):ok]' type='palette'>
+            <map to='#a0cbe8'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Sexo (bin):ok]&#10;[none:Edad (bin):ok]' type='palette'>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>0</bucket>
+                <bucket>0</bucket>
+              </multibucket>
+            </map>
+            <map to='#a0cbe8'>
+              <multibucket>
+                <bucket>0</bucket>
+                <bucket>1</bucket>
+              </multibucket>
+            </map>
+            <map to='#b07aa1'>
+              <multibucket>
+                <bucket>1</bucket>
+                <bucket>1</bucket>
+              </multibucket>
+            </map>
+            <map to='#ff9da7'>
+              <multibucket>
+                <bucket>1</bucket>
+                <bucket>0</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Clase (bin):ok]' palette='cyclic_10_0' type='palette'>
+            <map to='#1ba3c6'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#4f7cba'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#f88113'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Panama&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Titanic' id='fafwaf_9C8C23F5618F4B5F8FA023C31F80DF10'>
+            <properties context=''>
+              <relation connection='excel-direct.0lqmt5v093ne531e8kzjb0h1dr8w' name='fafwaf' table='[fafwaf$]' type='table'>
+                <columns gridOrigin='A1:D1317:no:A1:D1317:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Clase' ordinal='0' />
+                  <column datatype='integer' name='Edad' ordinal='1' />
+                  <column datatype='integer' name='Sexo' ordinal='2' />
+                  <column datatype='integer' name='Sobrevivió?' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action2_07E71AF1F5D6492AB495C2E0B9D55D33]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Supervivencia/Clases' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Determinar Supervivencia' />
+        <param name='target' value='Supervivencia/Clases' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Cantidad de pasajeros según sexo'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Arial' fontsize='14'>Cantidad de pasajeros según sexo y edad</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset Titanic' name='federated.0o1iv5s1v42mej19tv8uk1echj4o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0o1iv5s1v42mej19tv8uk1echj4o'>
+            <column caption='Determinar sexo' datatype='string' name='[Calculation_355502951668142081]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CASE [Sexo]&#13;&#10;WHEN 1 THEN &quot;Femenino&quot; WHEN 0 THEN &quot;Masculino&quot; END' />
+            </column>
+            <column caption='Determinar Edad' datatype='string' name='[Calculation_51228501730824196]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CASE [Edad]&#13;&#10;WHEN 0 THEN &quot;Infante&quot; WHEN 1 THEN &quot;Adulto&quot; END' />
+            </column>
+            <column datatype='integer' name='[Clase]' role='measure' type='quantitative' />
+            <column aggregation='None' caption='Edad (bin)' datatype='integer' name='[Edad (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Edad]' peg='0' size='1' />
+            </column>
+            <column datatype='integer' name='[Edad]' role='measure' type='quantitative' />
+            <column aggregation='None' caption='Sexo (Masculino / Femenino)' datatype='integer' name='[Sexo (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Sexo]' peg='0' size='1' />
+            </column>
+            <column datatype='integer' name='[Sexo]' role='measure' type='quantitative' />
+            <column-instance column='[Clase]' derivation='Count' name='[cnt:Clase:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_355502951668142081]' derivation='None' name='[none:Calculation_355502951668142081:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_51228501730824196]' derivation='None' name='[none:Calculation_51228501730824196:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Edad (bin)]' derivation='None' name='[none:Edad (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Sexo (bin)]' derivation='None' name='[none:Sexo (bin):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' field-type='quantitative' max-size='1' min-size='0' type='quantsize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sexo (bin):ok]' />
+              <wedge-size column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' />
+              <text column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' />
+              <color column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Edad (bin):ok]' />
+              <text column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501730824196:nk]' />
+              <text column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951668142081:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Sexo:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sexo (bin):ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Cantidad de Pasajeros:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='0' fontcolor='#d3b348' fontsize='16'>Cantidad:</run>
+                <run bold='false' fontalignment='0' fontsize='16'><![CDATA[  <[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]>]]></run>
+                <run fontalignment='0'>Æ&#10;</run>
+                <run fontalignment='0' fontcolor='#d3b348' fontsize='14'>Sexo:</run>
+                <run bold='false' fontalignment='0' fontcolor='#d3b348' fontsize='14'>Æ </run>
+                <run bold='false' fontalignment='0' fontsize='14'><![CDATA[<[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951668142081:nk]>]]></run>
+                <run fontalignment='0'>Æ&#10;</run>
+                <run fontalignment='0' fontcolor='#d3b348' fontsize='14'>Edad:</run>
+                <run bold='false' fontalignment='0' fontsize='14'><![CDATA[ <[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501730824196:nk]>]]></run>
+                <run fontalignment='0'>Æ&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='text-orientation' value='0' />
+                <format attr='vertical-align' value='center' />
+                <format attr='wrap' value='on' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-style' value='normal' />
+                <format attr='font-size' value='20' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-family' value='Arial' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5052486658096313' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-range-scope' value='table' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951668142081:nk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501730824196:nk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Edad (bin):ok]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sexo (bin):ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>45</value>
+                <value>&quot;Masculino&quot;</value>
+                <value>&quot;Infante&quot;</value>
+                <value>0</value>
+                <value>0</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='78' y='42' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951668142081:nk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501730824196:nk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Edad (bin):ok]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sexo (bin):ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>402</value>
+                <value>&quot;Masculino&quot;</value>
+                <value>&quot;Adulto&quot;</value>
+                <value>1</value>
+                <value>0</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='121' y='-44' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951668142081:nk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501730824196:nk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Edad (bin):ok]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sexo (bin):ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>64</value>
+                <value>&quot;Femenino&quot;</value>
+                <value>&quot;Infante&quot;</value>
+                <value>0</value>
+                <value>1</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='119' y='-50' />
+          </mark-label>
+          <mark-label id='3'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951668142081:nk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501730824196:nk]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Edad (bin):ok]</field>
+                  <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sexo (bin):ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>805</value>
+                <value>&quot;Femenino&quot;</value>
+                <value>&quot;Adulto&quot;</value>
+                <value>1</value>
+                <value>1</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-129' y='74' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{23E92048-0CA9-4315-89B8-CC8C4199ACE8}' />
+    </worksheet>
+    <worksheet name='Clase vs Supervivencia'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Arial' fontsize='14'>Supervivencia vs Clase</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset Titanic' name='federated.0o1iv5s1v42mej19tv8uk1echj4o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0o1iv5s1v42mej19tv8uk1echj4o'>
+            <column caption='Determinar clase ' datatype='string' name='[Calculation_355502951674970114]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CASE [Clase]&#13;&#10;WHEN 1 THEN &quot;Primera Clase&quot;&#13;&#10;WHEN 2 THEN &quot;Segunda Clase&quot;&#13;&#10;WHEN 3 THEN &quot;Tercera Clase&quot;&#13;&#10;END' />
+            </column>
+            <column aggregation='None' caption='Clase T' datatype='integer' name='[Clase (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Clase]' peg='0' size='1' />
+            </column>
+            <column datatype='integer' name='[Clase]' role='measure' type='quantitative' />
+            <column aggregation='None' caption='Supervivencia' datatype='integer' name='[Sobrevivió? (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Sobrevivió?]' peg='0' size='1' />
+            </column>
+            <column datatype='integer' name='[Sobrevivió?]' role='measure' type='quantitative' />
+            <column-instance column='[Clase]' derivation='Count' name='[cnt:Clase:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_355502951674970114]' derivation='None' name='[none:Calculation_355502951674970114:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Clase (bin)]' derivation='None' name='[none:Clase (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Sobrevivió? (bin)]' derivation='None' name='[none:Sobrevivió? (bin):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):ok]' />
+              <text column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951674970114:nk]' />
+              <text column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Arial' fontsize='12'><![CDATA[<[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951674970114:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontname='Arial' fontsize='12'><![CDATA[<[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='auto' />
+                <format attr='vertical-align' value='auto' />
+                <format attr='text-orientation' value='0' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]</rows>
+        <cols>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sobrevivió? (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{EC6BA466-A272-41C1-904C-DEF3B1505BF0}' />
+    </worksheet>
+    <worksheet name='Supervivencia/Clases'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset Titanic' name='federated.0o1iv5s1v42mej19tv8uk1echj4o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0o1iv5s1v42mej19tv8uk1echj4o'>
+            <column caption='Determinar Supervivencia' datatype='string' name='[Calculation_51228501729198083]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CASE [Sobrevivió?]&#13;&#10;WHEN 1 THEN &quot;Sobrevivió&quot; WHEN 0 THEN &quot;No Sobrevivió&quot; END' />
+            </column>
+            <column aggregation='None' caption='Clase T' datatype='integer' name='[Clase (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Clase]' peg='0' size='1' />
+            </column>
+            <column datatype='integer' name='[Clase]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Sobrevivió?]' role='measure' type='quantitative' />
+            <column-instance column='[Clase]' derivation='Count' name='[cnt:Clase:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_51228501729198083]' derivation='None' name='[none:Calculation_51228501729198083:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Clase (bin)]' derivation='None' name='[none:Clase (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' scope='cols' value='true' />
+            <format attr='tick-color' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='#000000' />
+            <format attr='tick-color' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='#ddebf0' />
+            <format attr='background-color' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='#dfe7e8' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='n#,##0;-#,##0' />
+            <format attr='font-family' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='Cambria Math' />
+            <format attr='color' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='#000000' />
+            <format attr='text-format' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='N' />
+            <format attr='color' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='#000000' />
+            <format attr='font-family' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='Cambria Math' />
+            <format attr='font-weight' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='normal' />
+            <format attr='font-size' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='9' />
+            <format attr='font-size' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='9' />
+            <format attr='font-weight' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='normal' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='background-color' value='#dfe7e8' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#b6992d' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-family' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='Cambria Math' />
+            <format attr='font-weight' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='bold' />
+            <format attr='font-family' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='Cambria Math' />
+            <format attr='font-weight' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='bold' />
+            <format attr='font-size' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]' value='14' />
+            <format attr='font-size' field='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]' value='12' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501729198083:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Supervivencia:&#9; </run>
+                <run bold='true'><![CDATA[<[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501729198083:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Clase: </run>
+                <run bold='true'><![CDATA[<[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Cantidad: </run>
+                <run bold='true'><![CDATA[<[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='wrap' value='auto' />
+                <format attr='text-align' value='center' />
+                <format attr='text-orientation' value='0' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-family' value='Cambria Math' />
+                <format attr='font-size' value='15' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-style' value='normal' />
+                <format attr='color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]</rows>
+        <cols>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]</cols>
+      </table>
+      <simple-id uuid='{52849760-75FD-4669-A435-22339556911A}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Supervivencia/Clases'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501729198083:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[cnt:Clase:qk]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):ok]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{511B56DC-871D-4FCA-9AC8-C628A8B9BBC8}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Clase vs Supervivencia'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951674970114:nk]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):ok]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase:qk]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sobrevivió? (bin):ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C570EC62-77AC-4FF0-BBDC-C319E108E641}' />
+    </window>
+    <window class='worksheet' name='Cantidad de pasajeros según sexo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sexo (bin):ok]&#10;[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Edad (bin):ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_355502951668142081:nk]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501729198083:nk]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Calculation_51228501730824196:nk]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Clase (bin):qk]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Edad (bin):ok]</field>
+            <field>[federated.0o1iv5s1v42mej19tv8uk1echj4o].[none:Sexo (bin):ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8E8F0142-DFA3-4AD3-AFB4-7D6FF04EEDD5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Cantidad de pasajeros según sexo' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Clase vs Supervivencia' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Supervivencia/Clases' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
